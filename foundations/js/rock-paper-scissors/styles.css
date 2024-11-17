@@ -1,0 +1,50 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF9DE;
+    flex-direction: column;
+    min-height: 100vh; /*places the entire body in the center of the screen*/
+    padding: 100px;
+}
+
+button{
+    background: none;
+    border-radius: 50px;
+    border-color: #E48F4B;
+    padding: 10px 30px;
+}
+
+button img{
+    max-width: 50px;
+    height: 50px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #FFB469;
+}
+
+.action-buttons{
+    align-items: center;
+
+}
+
+.result{
+    justify-content: column;
+
+}
+
+.winner{
+    text-align: center;
+
+}
+
+.running-score{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
