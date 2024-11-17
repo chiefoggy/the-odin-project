@@ -8,7 +8,6 @@ body{
     background-color: #FFF9DE;
     flex-direction: column;
     min-height: 100vh; /*places the entire body in the center of the screen*/
-    padding: 100px;
 }
 
 button{
@@ -28,14 +27,8 @@ button:hover{
     background-color: #FFB469;
 }
 
-.action-buttons{
-    align-items: center;
-
-}
-
 .result{
     justify-content: column;
-
 }
 
 .winner{
@@ -47,4 +40,14 @@ button:hover{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 15px
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e48f4b;
+    text-align: center;
+    padding: 10px;
 }
